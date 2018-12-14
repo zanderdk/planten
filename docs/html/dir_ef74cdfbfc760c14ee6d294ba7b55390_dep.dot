@@ -1,0 +1,14 @@
+digraph "esp32-snippets/filesystems" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2b66d65f09a100230911d819a169d69c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="esp32-snippets" fontname="Helvetica", fontsize="10", URL="dir_2b66d65f09a100230911d819a169d69c.html"]
+  subgraph clusterdir_ef74cdfbfc760c14ee6d294ba7b55390 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ef74cdfbfc760c14ee6d294ba7b55390.html"];
+    dir_ef74cdfbfc760c14ee6d294ba7b55390 [shape=plaintext label="filesystems"];
+    dir_d6db1117e085bfbefb649998418fb4c4 [shape=box label="espfs" color="red" fillcolor="white" style="filled" URL="dir_d6db1117e085bfbefb649998418fb4c4.html"];
+    dir_add10d4d35c9ea223bc7fc5742f09c2d [shape=box label="sendZip" color="black" fillcolor="white" style="filled" URL="dir_add10d4d35c9ea223bc7fc5742f09c2d.html"];
+  }
+  }
+}

@@ -1,0 +1,11 @@
+digraph "esp32-snippets/hardware/displays/Adafruit-PCD8544-Nokia-5110-LCD-library" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_82937855ec24aaae1f185fc810680b2f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="displays" fontname="Helvetica", fontsize="10", URL="dir_82937855ec24aaae1f185fc810680b2f.html"]
+  dir_2fd259ae95b1318c0282c65545e72a4c [shape=box, label="Adafruit-PCD8544-Nokia-5110-LCD-library", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2fd259ae95b1318c0282c65545e72a4c.html"];
+  }
+  dir_d8b6fbc4e0c47b75e47eb2611437b459 [shape=box label="Adafruit-GFX-Library" fillcolor="white" style="filled" color="red" URL="dir_d8b6fbc4e0c47b75e47eb2611437b459.html"];
+  dir_2fd259ae95b1318c0282c65545e72a4c->dir_d8b6fbc4e0c47b75e47eb2611437b459 [headlabel="1", labeldistance=1.5 headhref="dir_000096_000093.html"];
+}

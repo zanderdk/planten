@@ -1,0 +1,22 @@
+digraph "curl_mime_s"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="curl_mime_s",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" easy" ,fontname="Helvetica"];
+  Node2 [label="struct",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node3 [label="mime_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmime__state.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" firstpart\nlastpart\nparent" ,fontname="Helvetica"];
+  Node4 [label="curl_mimepart_s",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcurl__mimepart__s.html"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" readfunc" ,fontname="Helvetica"];
+  Node5 [label="size",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" encstate" ,fontname="Helvetica"];
+  Node6 [label="mime_encoder_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmime__encoder__state.html"];
+  Node2 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" easy\ncurlheaders\nuserheaders" ,fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" encoder" ,fontname="Helvetica"];
+  Node7 [label="mime_encoder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmime__encoder.html"];
+  Node1 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parent" ,fontname="Helvetica"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nextpart" ,fontname="Helvetica"];
+}

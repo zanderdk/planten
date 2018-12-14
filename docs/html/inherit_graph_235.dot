@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MAX7219",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_a_x7219.html",tooltip="MAX7219 and MAX7221 controller. "];
+}

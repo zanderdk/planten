@@ -1,0 +1,11 @@
+digraph "esp32-snippets/curl/fragments" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_95695785afb0dd19e91f78ef0b18b649 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="curl" fontname="Helvetica", fontsize="10", URL="dir_95695785afb0dd19e91f78ef0b18b649.html"]
+  dir_420198cfe393c3ace83ddee3d5b9cb52 [shape=box, label="fragments", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_420198cfe393c3ace83ddee3d5b9cb52.html"];
+  }
+  dir_409f97388efe006bc3438b95e9edef48 [shape=box label="components" fillcolor="white" style="filled" color="red" URL="dir_409f97388efe006bc3438b95e9edef48.html"];
+  dir_420198cfe393c3ace83ddee3d5b9cb52->dir_409f97388efe006bc3438b95e9edef48 [headlabel="1", labeldistance=1.5 headhref="dir_000082_000000.html"];
+}

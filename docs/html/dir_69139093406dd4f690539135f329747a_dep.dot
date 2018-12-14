@@ -1,0 +1,15 @@
+digraph "components/curl/src/macos" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_de8890eb3c13f5eefbce6670d44ad2e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_de8890eb3c13f5eefbce6670d44ad2e7.html"]
+  subgraph clusterdir_69139093406dd4f690539135f329747a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_69139093406dd4f690539135f329747a.html"];
+    dir_69139093406dd4f690539135f329747a [shape=plaintext label="macos"];
+    dir_2c7f24acee968fe234b4ad253f63522b [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_2c7f24acee968fe234b4ad253f63522b.html"];
+  }
+  }
+  dir_2b66d65f09a100230911d819a169d69c [shape=box label="esp32-snippets" fillcolor="white" style="filled" color="red" URL="dir_2b66d65f09a100230911d819a169d69c.html"];
+  dir_2c7f24acee968fe234b4ad253f63522b->dir_2b66d65f09a100230911d819a169d69c [headlabel="1", labeldistance=1.5 headhref="dir_000031_000017.html"];
+}

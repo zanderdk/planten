@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FATFS_VFS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_a_t_f_s___v_f_s.html",tooltip="Provide access to the FAT file system on SPI flash. The FATFS_VFS file system needs a partition defin..."];
+}

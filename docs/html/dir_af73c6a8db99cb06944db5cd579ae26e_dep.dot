@@ -1,0 +1,16 @@
+digraph "esp32-snippets/cpp_utils/tests" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e66062f3a4d2a5b6b6746a6b0f9c85ac {
+    graph [ bgcolor="#ddddee", pencolor="black", label="cpp_utils" fontname="Helvetica", fontsize="10", URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"]
+  subgraph clusterdir_af73c6a8db99cb06944db5cd579ae26e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_af73c6a8db99cb06944db5cd579ae26e.html"];
+    dir_af73c6a8db99cb06944db5cd579ae26e [shape=plaintext label="tests"];
+    dir_bd6a5a299570209f7e79b4822fafcd71 [shape=box label="BLETests" color="red" fillcolor="white" style="filled" URL="dir_bd6a5a299570209f7e79b4822fafcd71.html"];
+    dir_83cbe673452f01ca7c081e9deb8f2d90 [shape=box label="MFRC522" color="black" fillcolor="white" style="filled" URL="dir_83cbe673452f01ca7c081e9deb8f2d90.html"];
+  }
+  }
+  dir_409f97388efe006bc3438b95e9edef48 [shape=box label="components" fillcolor="white" style="filled" color="red" URL="dir_409f97388efe006bc3438b95e9edef48.html"];
+  dir_af73c6a8db99cb06944db5cd579ae26e->dir_409f97388efe006bc3438b95e9edef48 [headlabel="2", labeldistance=1.5 headhref="dir_000064_000000.html"];
+}

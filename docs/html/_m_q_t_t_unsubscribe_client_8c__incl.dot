@@ -1,0 +1,26 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTPacket/src/MQTTUnsubscribeClient.c"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTPacket/src/MQTTUnsubscribe\lClient.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MQTTPacket.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_packet_8h.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MQTTConnect.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_connect_8h.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MQTTPublish.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_publish_8h.html"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MQTTSubscribe.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_subscribe_8h.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MQTTUnsubscribe.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_unsubscribe_8h.html"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MQTTFormat.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_format_8h.html"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="StackTrace.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_stack_trace_8h.html"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

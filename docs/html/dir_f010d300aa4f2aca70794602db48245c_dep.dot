@@ -1,0 +1,22 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0c0b9b7f6662c190af4a813f93d198 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mqtt" fontname="Helvetica", fontsize="10", URL="dir_bc0c0b9b7f6662c190af4a813f93d198.html"]
+  subgraph clusterdir_f010d300aa4f2aca70794602db48245c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f010d300aa4f2aca70794602db48245c.html"];
+    dir_f010d300aa4f2aca70794602db48245c [shape=plaintext label="paho_mqtt_embedded_c"];
+    dir_b96270be2cc27fc766213dd081a15a93 [shape=box label="Debug" color="red" fillcolor="white" style="filled" URL="dir_b96270be2cc27fc766213dd081a15a93.html"];
+    dir_52316f519841bc780fd58c8d97297fbb [shape=box label="ESP32_Sample" color="black" fillcolor="white" style="filled" URL="dir_52316f519841bc780fd58c8d97297fbb.html"];
+    dir_6a8d93c98e4489f281da583b67454e53 [shape=box label="MQTTClient" color="red" fillcolor="white" style="filled" URL="dir_6a8d93c98e4489f281da583b67454e53.html"];
+    dir_4e2249accfd21053bfe0afba98c6c9d9 [shape=box label="MQTTClient-C" color="red" fillcolor="white" style="filled" URL="dir_4e2249accfd21053bfe0afba98c6c9d9.html"];
+    dir_26aaa6cc81d32f7596e56c698d869ba6 [shape=box label="MQTTPacket" color="red" fillcolor="white" style="filled" URL="dir_26aaa6cc81d32f7596e56c698d869ba6.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_4e2249accfd21053bfe0afba98c6c9d9->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="6", labeldistance=1.5 headhref="dir_000116_000062.html"];
+  dir_4e2249accfd21053bfe0afba98c6c9d9->dir_26aaa6cc81d32f7596e56c698d869ba6 [headlabel="1", labeldistance=1.5 headhref="dir_000116_000129.html"];
+  dir_6a8d93c98e4489f281da583b67454e53->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="3", labeldistance=1.5 headhref="dir_000072_000062.html"];
+  dir_6a8d93c98e4489f281da583b67454e53->dir_26aaa6cc81d32f7596e56c698d869ba6 [headlabel="1", labeldistance=1.5 headhref="dir_000072_000129.html"];
+}

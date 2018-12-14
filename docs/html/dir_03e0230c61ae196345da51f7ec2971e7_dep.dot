@@ -1,0 +1,23 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient-C/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4e2249accfd21053bfe0afba98c6c9d9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MQTTClient-C" fontname="Helvetica", fontsize="10", URL="dir_4e2249accfd21053bfe0afba98c6c9d9.html"]
+  subgraph clusterdir_03e0230c61ae196345da51f7ec2971e7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_03e0230c61ae196345da51f7ec2971e7.html"];
+    dir_03e0230c61ae196345da51f7ec2971e7 [shape=plaintext label="src"];
+    dir_be265222d83786a25a7f9010bc3addea [shape=box label="cc3200" color="black" fillcolor="white" style="filled" URL="dir_be265222d83786a25a7f9010bc3addea.html"];
+    dir_84d665d631ffb8e2aa1275478541fa06 [shape=box label="FreeRTOS" color="black" fillcolor="white" style="filled" URL="dir_84d665d631ffb8e2aa1275478541fa06.html"];
+    dir_a3332113e6e5d55368086db40c66c364 [shape=box label="linux" color="black" fillcolor="white" style="filled" URL="dir_a3332113e6e5d55368086db40c66c364.html"];
+    dir_0f2a52543f6b196a843d32fe2cdb9b6c [shape=box label="samples" color="red" fillcolor="white" style="filled" URL="dir_0f2a52543f6b196a843d32fe2cdb9b6c.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_26aaa6cc81d32f7596e56c698d869ba6 [shape=box label="MQTTPacket" fillcolor="white" style="filled" color="red" URL="dir_26aaa6cc81d32f7596e56c698d869ba6.html"];
+  dir_84d665d631ffb8e2aa1275478541fa06->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000121_000062.html"];
+  dir_03e0230c61ae196345da51f7ec2971e7->dir_a3332113e6e5d55368086db40c66c364 [headlabel="1", labeldistance=1.5 headhref="dir_000119_000122.html"];
+  dir_03e0230c61ae196345da51f7ec2971e7->dir_26aaa6cc81d32f7596e56c698d869ba6 [headlabel="1", labeldistance=1.5 headhref="dir_000119_000129.html"];
+  dir_0f2a52543f6b196a843d32fe2cdb9b6c->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000123_000062.html"];
+  dir_be265222d83786a25a7f9010bc3addea->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="1", labeldistance=1.5 headhref="dir_000120_000062.html"];
+}

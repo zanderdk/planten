@@ -1,0 +1,24 @@
+digraph "esp32-snippets/hardware" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2b66d65f09a100230911d819a169d69c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="esp32-snippets" fontname="Helvetica", fontsize="10", URL="dir_2b66d65f09a100230911d819a169d69c.html"]
+  subgraph clusterdir_3129719c13c172816610955a64eb5633 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3129719c13c172816610955a64eb5633.html"];
+    dir_3129719c13c172816610955a64eb5633 [shape=plaintext label="hardware"];
+    dir_61598a10e5f9329c84b7688a70e8435d [shape=box label="accelerometers" color="black" fillcolor="white" style="filled" URL="dir_61598a10e5f9329c84b7688a70e8435d.html"];
+    dir_09d6c1af0d72703a8cfc876369065b53 [shape=box label="ambient_light" color="black" fillcolor="white" style="filled" URL="dir_09d6c1af0d72703a8cfc876369065b53.html"];
+    dir_41c059a8b94d06ece4b499447ffda5a8 [shape=box label="compass" color="black" fillcolor="white" style="filled" URL="dir_41c059a8b94d06ece4b499447ffda5a8.html"];
+    dir_82937855ec24aaae1f185fc810680b2f [shape=box label="displays" color="red" fillcolor="white" style="filled" URL="dir_82937855ec24aaae1f185fc810680b2f.html"];
+    dir_01dd8cf339f1ddb462db80c027f252ec [shape=box label="expanders" color="red" fillcolor="white" style="filled" URL="dir_01dd8cf339f1ddb462db80c027f252ec.html"];
+    dir_8767ff0f9538a3e3a81614ea725abe4d [shape=box label="gps" color="red" fillcolor="white" style="filled" URL="dir_8767ff0f9538a3e3a81614ea725abe4d.html"];
+    dir_dd8a13c6a3274a2fd458dfde574f4a03 [shape=box label="infra_red" color="red" fillcolor="white" style="filled" URL="dir_dd8a13c6a3274a2fd458dfde574f4a03.html"];
+    dir_dfded56bbd2e9d9dfce1d807544079f6 [shape=box label="LEDs" color="black" fillcolor="white" style="filled" URL="dir_dfded56bbd2e9d9dfce1d807544079f6.html"];
+    dir_762f8339485dd53b1118aabd574b4451 [shape=box label="nrf24" color="red" fillcolor="white" style="filled" URL="dir_762f8339485dd53b1118aabd574b4451.html"];
+    dir_8ece05f80d37d1cbeb37de6c3dd398aa [shape=box label="rtc" color="black" fillcolor="white" style="filled" URL="dir_8ece05f80d37d1cbeb37de6c3dd398aa.html"];
+    dir_d74da030da80bc511d68cb5cadfe810f [shape=box label="servos" color="black" fillcolor="white" style="filled" URL="dir_d74da030da80bc511d68cb5cadfe810f.html"];
+    dir_7a7216b8db010538d2267f8a7976c818 [shape=box label="temperature and pressure" color="black" fillcolor="white" style="filled" URL="dir_7a7216b8db010538d2267f8a7976c818.html"];
+  }
+  }
+}

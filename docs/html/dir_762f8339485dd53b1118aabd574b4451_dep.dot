@@ -1,0 +1,13 @@
+digraph "esp32-snippets/hardware/nrf24" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3129719c13c172816610955a64eb5633 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hardware" fontname="Helvetica", fontsize="10", URL="dir_3129719c13c172816610955a64eb5633.html"]
+  subgraph clusterdir_762f8339485dd53b1118aabd574b4451 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_762f8339485dd53b1118aabd574b4451.html"];
+    dir_762f8339485dd53b1118aabd574b4451 [shape=plaintext label="nrf24"];
+    dir_8887db0e1e6c9391bc9d2f4ef498d574 [shape=box label="utility" color="red" fillcolor="white" style="filled" URL="dir_8887db0e1e6c9391bc9d2f4ef498d574.html"];
+  }
+  }
+}

@@ -1,0 +1,36 @@
+digraph "components/curl/lib/share.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node49 [label="components/curl/lib\l/share.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="components/curl/lib\l/conncache.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$conncache_8c.html"];
+  Node49 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="components/curl/lib\l/cookie.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cookie_8c.html"];
+  Node49 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="components/curl/lib\l/doh.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$doh_8c.html"];
+  Node49 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="components/curl/lib\l/easy.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$easy_8c.html"];
+  Node49 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="components/curl/lib\l/hostip.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hostip_8c.html"];
+  Node49 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="components/curl/lib\l/hostip4.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hostip4_8c.html"];
+  Node49 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="components/curl/lib\l/hostsyn.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hostsyn_8c.html"];
+  Node49 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="components/curl/lib\l/http.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$http_8c.html"];
+  Node49 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="components/curl/lib\l/multi.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$multi_8c.html"];
+  Node49 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="components/curl/lib\l/setopt.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$setopt_8c.html"];
+  Node49 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="components/curl/lib\l/share.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$share_8c.html"];
+  Node49 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="components/curl/lib\l/url.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$url_8c.html"];
+  Node49 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="components/curl/lib\l/vtls/vtls.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vtls_8c.html"];
+  Node49 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="components/curl/tests\l/unit/unit1607.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unit1607_8c.html"];
+  Node49 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="components/curl/tests\l/unit/unit1609.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unit1609_8c.html"];
+}

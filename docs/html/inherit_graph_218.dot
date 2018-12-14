@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="impacket.spnego.GSSAPI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1spnego_1_1_g_s_s_a_p_i.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="impacket.spnego.SPNEGO\l_NegTokenInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1spnego_1_1_s_p_n_e_g_o___neg_token_init.html"];
+}

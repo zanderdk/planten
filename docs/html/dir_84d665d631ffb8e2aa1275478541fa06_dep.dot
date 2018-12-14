@@ -1,0 +1,11 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient-C/src/FreeRTOS" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_03e0230c61ae196345da51f7ec2971e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_03e0230c61ae196345da51f7ec2971e7.html"]
+  dir_84d665d631ffb8e2aa1275478541fa06 [shape=box, label="FreeRTOS", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_84d665d631ffb8e2aa1275478541fa06.html"];
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_84d665d631ffb8e2aa1275478541fa06->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000121_000062.html"];
+}

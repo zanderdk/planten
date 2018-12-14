@@ -1,0 +1,24 @@
+digraph "esp32-snippets/hardware/displays" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3129719c13c172816610955a64eb5633 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hardware" fontname="Helvetica", fontsize="10", URL="dir_3129719c13c172816610955a64eb5633.html"]
+  subgraph clusterdir_82937855ec24aaae1f185fc810680b2f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_82937855ec24aaae1f185fc810680b2f.html"];
+    dir_82937855ec24aaae1f185fc810680b2f [shape=plaintext label="displays"];
+    dir_d8b6fbc4e0c47b75e47eb2611437b459 [shape=box label="Adafruit-GFX-Library" color="red" fillcolor="white" style="filled" URL="dir_d8b6fbc4e0c47b75e47eb2611437b459.html"];
+    dir_2fd259ae95b1318c0282c65545e72a4c [shape=box label="Adafruit-PCD8544-Nokia-5110-LCD-library" color="black" fillcolor="white" style="filled" URL="dir_2fd259ae95b1318c0282c65545e72a4c.html"];
+    dir_79cc799e9b55501c332cdcec6c9906d0 [shape=box label="Adafruit_SSD1305-Library" color="black" fillcolor="white" style="filled" URL="dir_79cc799e9b55501c332cdcec6c9906d0.html"];
+    dir_3ef91fe9452925eab66bbdd8dc48a757 [shape=box label="Adafruit_SSD1306-Library" color="red" fillcolor="white" style="filled" URL="dir_3ef91fe9452925eab66bbdd8dc48a757.html"];
+    dir_951f738581a49c13cb67ea64f4c3d010 [shape=box label="tests" color="black" fillcolor="white" style="filled" URL="dir_951f738581a49c13cb67ea64f4c3d010.html"];
+    dir_37ac486b4995ae2ce06e7fa14ab8dd74 [shape=box label="U8G2" color="black" fillcolor="white" style="filled" URL="dir_37ac486b4995ae2ce06e7fa14ab8dd74.html"];
+  }
+  }
+  dir_79cc799e9b55501c332cdcec6c9906d0->dir_d8b6fbc4e0c47b75e47eb2611437b459 [headlabel="3", labeldistance=1.5 headhref="dir_000097_000093.html"];
+  dir_951f738581a49c13cb67ea64f4c3d010->dir_d8b6fbc4e0c47b75e47eb2611437b459 [headlabel="5", labeldistance=1.5 headhref="dir_000044_000093.html"];
+  dir_951f738581a49c13cb67ea64f4c3d010->dir_2fd259ae95b1318c0282c65545e72a4c [headlabel="2", labeldistance=1.5 headhref="dir_000044_000096.html"];
+  dir_951f738581a49c13cb67ea64f4c3d010->dir_3ef91fe9452925eab66bbdd8dc48a757 [headlabel="1", labeldistance=1.5 headhref="dir_000044_000067.html"];
+  dir_2fd259ae95b1318c0282c65545e72a4c->dir_d8b6fbc4e0c47b75e47eb2611437b459 [headlabel="1", labeldistance=1.5 headhref="dir_000096_000093.html"];
+  dir_3ef91fe9452925eab66bbdd8dc48a757->dir_d8b6fbc4e0c47b75e47eb2611437b459 [headlabel="2", labeldistance=1.5 headhref="dir_000067_000093.html"];
+}

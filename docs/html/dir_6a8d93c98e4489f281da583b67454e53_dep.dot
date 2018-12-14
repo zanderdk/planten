@@ -1,0 +1,20 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f010d300aa4f2aca70794602db48245c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="paho_mqtt_embedded_c" fontname="Helvetica", fontsize="10", URL="dir_f010d300aa4f2aca70794602db48245c.html"]
+  subgraph clusterdir_6a8d93c98e4489f281da583b67454e53 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6a8d93c98e4489f281da583b67454e53.html"];
+    dir_6a8d93c98e4489f281da583b67454e53 [shape=plaintext label="MQTTClient"];
+    dir_0baca8c1d6ff634d0948bfb4e762b69c [shape=box label="samples" color="red" fillcolor="white" style="filled" URL="dir_0baca8c1d6ff634d0948bfb4e762b69c.html"];
+    dir_d26eb8a9337201d4147d4b6391c76f4b [shape=box label="src" color="red" fillcolor="white" style="filled" URL="dir_d26eb8a9337201d4147d4b6391c76f4b.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_26aaa6cc81d32f7596e56c698d869ba6 [shape=box label="MQTTPacket" fillcolor="white" style="filled" color="red" URL="dir_26aaa6cc81d32f7596e56c698d869ba6.html"];
+  dir_0baca8c1d6ff634d0948bfb4e762b69c->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="1", labeldistance=1.5 headhref="dir_000073_000062.html"];
+  dir_0baca8c1d6ff634d0948bfb4e762b69c->dir_d26eb8a9337201d4147d4b6391c76f4b [headlabel="2", labeldistance=1.5 headhref="dir_000073_000125.html"];
+  dir_d26eb8a9337201d4147d4b6391c76f4b->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000125_000062.html"];
+  dir_d26eb8a9337201d4147d4b6391c76f4b->dir_26aaa6cc81d32f7596e56c698d869ba6 [headlabel="1", labeldistance=1.5 headhref="dir_000125_000129.html"];
+}

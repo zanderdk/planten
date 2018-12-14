@@ -1,0 +1,9 @@
+digraph "esp32-snippets/hardware/displays/Adafruit_SSD1306-Library/examples/main" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_04fa6f68080f9e641f858a5b5a1a41a8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_04fa6f68080f9e641f858a5b5a1a41a8.html"]
+  dir_85ba0a3bfa27dde52e8be0426d93de49 [shape=box, label="main", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_85ba0a3bfa27dde52e8be0426d93de49.html"];
+  }
+}

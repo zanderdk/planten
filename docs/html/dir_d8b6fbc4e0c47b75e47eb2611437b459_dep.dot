@@ -1,0 +1,14 @@
+digraph "esp32-snippets/hardware/displays/Adafruit-GFX-Library" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_82937855ec24aaae1f185fc810680b2f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="displays" fontname="Helvetica", fontsize="10", URL="dir_82937855ec24aaae1f185fc810680b2f.html"]
+  subgraph clusterdir_d8b6fbc4e0c47b75e47eb2611437b459 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d8b6fbc4e0c47b75e47eb2611437b459.html"];
+    dir_d8b6fbc4e0c47b75e47eb2611437b459 [shape=plaintext label="Adafruit-GFX-Library"];
+    dir_35f8ad9228d7b61cd547c948d655440a [shape=box label="fontconvert" color="black" fillcolor="white" style="filled" URL="dir_35f8ad9228d7b61cd547c948d655440a.html"];
+    dir_9e6cec5ea20c5d75587544fabbd50a2f [shape=box label="Fonts" color="black" fillcolor="white" style="filled" URL="dir_9e6cec5ea20c5d75587544fabbd50a2f.html"];
+  }
+  }
+}

@@ -1,0 +1,19 @@
+digraph "esp32-snippets/networking" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2b66d65f09a100230911d819a169d69c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="esp32-snippets" fontname="Helvetica", fontsize="10", URL="dir_2b66d65f09a100230911d819a169d69c.html"]
+  subgraph clusterdir_e6509e8e306afd21d8371d681599573a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e6509e8e306afd21d8371d681599573a.html"];
+    dir_e6509e8e306afd21d8371d681599573a [shape=plaintext label="networking"];
+    dir_f68137c71457af4369863facf8d7efec [shape=box label="bootwifi" color="black" fillcolor="white" style="filled" URL="dir_f68137c71457af4369863facf8d7efec.html"];
+    dir_14e8a4c8b0d6dc1b898a9bace0ee8246 [shape=box label="FTPServer" color="black" fillcolor="white" style="filled" URL="dir_14e8a4c8b0d6dc1b898a9bace0ee8246.html"];
+    dir_bc0c0b9b7f6662c190af4a813f93d198 [shape=box label="mqtt" color="red" fillcolor="white" style="filled" URL="dir_bc0c0b9b7f6662c190af4a813f93d198.html"];
+    dir_ffa82db9d8f0d1374ef8f2171eee020d [shape=box label="telnet" color="red" fillcolor="white" style="filled" URL="dir_ffa82db9d8f0d1374ef8f2171eee020d.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_bc0c0b9b7f6662c190af4a813f93d198->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="9", labeldistance=1.5 headhref="dir_000051_000062.html"];
+  dir_f68137c71457af4369863facf8d7efec->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="7", labeldistance=1.5 headhref="dir_000113_000062.html"];
+}

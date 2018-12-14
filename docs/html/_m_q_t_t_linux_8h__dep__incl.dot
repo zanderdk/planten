@@ -1,0 +1,24 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient-C/src/linux/MQTTLinux.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node15 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/src/linux\l/MQTTLinux.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/src/linux\l/MQTTLinux.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_linux_8c.html"];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/src/MQTTClient.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_c_2src_2_m_q_t_t_client_8h.html"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/ESP32_Sample/mqtt_paho.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mqtt__paho_8c.html"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/samples/linux\l/hello.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hello_8cpp.html"];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/samples/linux\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$esp32-snippets_2networking_2mqtt_2paho__mqtt__embedded__c_2_m_q_t_t_client_2samples_2linux_2main_8cpp.html"];
+  Node17 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/samples/linux\l/stdoutsub.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stdoutsub_8cpp.html"];
+  Node17 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/samples/linux\l/stdoutsub.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stdoutsub_8c.html"];
+  Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/src/MQTTClient.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_client_8c.html"];
+  Node17 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient-C/src/samples\l/FreeRTOS/MQTTEcho.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_q_t_t_echo_8c.html"];
+}

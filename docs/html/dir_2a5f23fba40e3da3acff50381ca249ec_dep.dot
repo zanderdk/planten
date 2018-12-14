@@ -1,0 +1,15 @@
+digraph "esp32-snippets/skeletons" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2b66d65f09a100230911d819a169d69c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="esp32-snippets" fontname="Helvetica", fontsize="10", URL="dir_2b66d65f09a100230911d819a169d69c.html"]
+  subgraph clusterdir_2a5f23fba40e3da3acff50381ca249ec {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2a5f23fba40e3da3acff50381ca249ec.html"];
+    dir_2a5f23fba40e3da3acff50381ca249ec [shape=plaintext label="skeletons"];
+    dir_6b37aefcef33da97247548b45438511e [shape=box label="cpp" color="black" fillcolor="white" style="filled" URL="dir_6b37aefcef33da97247548b45438511e.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_6b37aefcef33da97247548b45438511e->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000141_000062.html"];
+}

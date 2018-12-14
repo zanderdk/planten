@@ -1,0 +1,8 @@
+digraph "components/curl/lib/curl_path.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node49 [label="components/curl/lib\l/curl_path.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="components/curl/lib\l/curl_path.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$curl__path_8c.html"];
+}

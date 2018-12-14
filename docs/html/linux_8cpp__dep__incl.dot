@@ -1,0 +1,10 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient/src/linux/linux.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node17 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/src/linux/linux.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/samples/linux\l/hello.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hello_8cpp.html"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="esp32-snippets/networking\l/mqtt/paho_mqtt_embedded\l_c/MQTTClient/samples/linux\l/stdoutsub.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stdoutsub_8cpp.html"];
+}

@@ -1,0 +1,10 @@
+digraph "esp32-snippets/cpp_utils/MFRC522Debug.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node6 [label="esp32-snippets/cpp\l_utils/MFRC522Debug.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="esp32-snippets/cpp\l_utils/MFRC522.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_f_r_c522_8cpp.html"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="esp32-snippets/cpp\l_utils/MRFC522Debug.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_r_f_c522_debug_8cpp.html"];
+}

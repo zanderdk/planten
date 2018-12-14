@@ -1,0 +1,14 @@
+digraph "metalink_checksum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="metalink_checksum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" digest_def" ,fontname="Helvetica"];
+  Node2 [label="metalink_digest_def",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmetalink__digest__def.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dparams" ,fontname="Helvetica"];
+  Node3 [label="digest_params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structdigest__params.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" digest_update" ,fontname="Helvetica"];
+  Node4 [label="data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structdata.html"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" digest_final" ,fontname="Helvetica"];
+  Node5 [label="result",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

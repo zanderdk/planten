@@ -1,0 +1,28 @@
+var struct_curl__easy =
+[
+    [ "change", "struct_curl__easy.html#ada05343783606cce7fe3f8a583aeb50b", null ],
+    [ "connect_queue", "struct_curl__easy.html#ae5dae83dacc51859ff53f350c1de0a68", null ],
+    [ "cookies", "struct_curl__easy.html#ac7c736108b2529b95ade48ccdf435bba", null ],
+    [ "dns", "struct_curl__easy.html#a9aae7bf0c7e115aecd3db77123b25456", null ],
+    [ "easy_conn", "struct_curl__easy.html#ad7bc19a27cd3de5d0d72e9221dde5ef7", null ],
+    [ "fake", "struct_curl__easy.html#af078efa45414fdf25ab11c69d00e0263", null ],
+    [ "info", "struct_curl__easy.html#a6eae71582b7872d0ab88d0227d3561dc", null ],
+    [ "magic", "struct_curl__easy.html#acf372b60cf3b51a672d502f03d0206ff", null ],
+    [ "msg", "struct_curl__easy.html#a58a5db9f498161b06cd8f245d718b155", null ],
+    [ "mstate", "struct_curl__easy.html#a48af5568e2e5d690750ebfea66c3891d", null ],
+    [ "multi", "struct_curl__easy.html#ae50ee3c1668aaed84ae0338046f4f737", null ],
+    [ "multi_easy", "struct_curl__easy.html#a0cf0e1b6e7bde28287c58f4453453d73", null ],
+    [ "next", "struct_curl__easy.html#aa5114349d04093fdcfbb9e78b3fccfb4", null ],
+    [ "numsocks", "struct_curl__easy.html#ae5487e7b1b5e91d240646325c575fd0c", null ],
+    [ "pipeline_queue", "struct_curl__easy.html#a3464122af5fabe72ddbfac59914037ba", null ],
+    [ "prev", "struct_curl__easy.html#a5a9298f68601ae3125f62422819adbad", null ],
+    [ "progress", "struct_curl__easy.html#a01b3e6da4734e3c92a8bc809c3ebc788", null ],
+    [ "req", "struct_curl__easy.html#a8a13221afd448ab0b91f021b4f5ec7c7", null ],
+    [ "result", "struct_curl__easy.html#ab24f63d4f65b1133e99b01e598d0dc70", null ],
+    [ "set", "struct_curl__easy.html#abcc5aa61af150adc1388b1a3492c2599", null ],
+    [ "share", "struct_curl__easy.html#a1ace151ef57b4a482e4847e018401725", null ],
+    [ "sockets", "struct_curl__easy.html#a0fd63b8bf449296fd768140184454e60", null ],
+    [ "state", "struct_curl__easy.html#a15aced4a015c44ff454787debee23520", null ],
+    [ "tsi", "struct_curl__easy.html#a3e8822d05c8dccd9390f551d1bc8f6da", null ],
+    [ "wildcard", "struct_curl__easy.html#ae5d06a1cef02a1310a3fd7be169f9d46", null ]
+];

@@ -1,0 +1,27 @@
+var class_b_l_e_remote_characteristic =
+[
+    [ "~BLERemoteCharacteristic", "class_b_l_e_remote_characteristic.html#a3995f3ceaae0b08f2f986705cb5355de", null ],
+    [ "canBroadcast", "class_b_l_e_remote_characteristic.html#aed0b2f6999b0cfae866fbab1ad27fa12", null ],
+    [ "canIndicate", "class_b_l_e_remote_characteristic.html#aa5ba364fd80043c1d8aed9904007f267", null ],
+    [ "canNotify", "class_b_l_e_remote_characteristic.html#a24962dd34383c024f1dfd31eaec77635", null ],
+    [ "canRead", "class_b_l_e_remote_characteristic.html#a0c9a0f837afb8ea965413fd37222298e", null ],
+    [ "canWrite", "class_b_l_e_remote_characteristic.html#a3507fe04b1732cad1e0a0a69ada1c5f4", null ],
+    [ "canWriteNoResponse", "class_b_l_e_remote_characteristic.html#afba6d6857815ff057fffa039536fffa1", null ],
+    [ "getDescriptor", "class_b_l_e_remote_characteristic.html#a13b0b4fc0975f5e629c7cc2ab4d2d0d3", null ],
+    [ "getDescriptors", "class_b_l_e_remote_characteristic.html#ae42325e1aec6ca10f034ee869dc48960", null ],
+    [ "getHandle", "class_b_l_e_remote_characteristic.html#a2bcb1d188fc1d961ea8a9933806fc528", null ],
+    [ "getUUID", "class_b_l_e_remote_characteristic.html#a4d80b64628f2dcdd28b52ad27c2c2b6c", null ],
+    [ "readRawData", "class_b_l_e_remote_characteristic.html#acfa35695222036366832380e79559a03", null ],
+    [ "readUInt16", "class_b_l_e_remote_characteristic.html#a11e009f6a32a223e3c76a5b73104f38c", null ],
+    [ "readUInt32", "class_b_l_e_remote_characteristic.html#aa0f9d94ac1bbd9d1277f11cb538681ae", null ],
+    [ "readUInt8", "class_b_l_e_remote_characteristic.html#a0458e9f4a2fcc5027e02337cb297e451", null ],
+    [ "readValue", "class_b_l_e_remote_characteristic.html#a67b0993e84a032ef1f4dd0601e6a4628", null ],
+    [ "registerForNotify", "class_b_l_e_remote_characteristic.html#a575a8b67bb544e1eaa079329490a3bb0", null ],
+    [ "toString", "class_b_l_e_remote_characteristic.html#af9ac554d3521539d6618d9d8d55df7e7", null ],
+    [ "writeValue", "class_b_l_e_remote_characteristic.html#aecd512f950b6a0151941d139d78b19aa", null ],
+    [ "writeValue", "class_b_l_e_remote_characteristic.html#aba53cd3ce4845678028404b7eec28811", null ],
+    [ "writeValue", "class_b_l_e_remote_characteristic.html#aa00bffdf3b2843aee32a27af9b643da5", null ],
+    [ "BLEClient", "class_b_l_e_remote_characteristic.html#a8d5c6dd02ca6df51b223c95ed8c2c626", null ],
+    [ "BLERemoteDescriptor", "class_b_l_e_remote_characteristic.html#a37f99c30edf13206595264c25f37aea7", null ],
+    [ "BLERemoteService", "class_b_l_e_remote_characteristic.html#a43613776d3f39890c4b6b01079c46b0c", null ]
+];

@@ -1,0 +1,28 @@
+digraph "esp32-snippets/cpp_utils/I2C.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="esp32-snippets/cpp\l_utils/I2C.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="esp32-snippets/cpp\l_utils/I2C.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_i2_c_8cpp.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="esp32-snippets/cpp\l_utils/MPU6050.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_p_u6050_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="esp32-snippets/cpp\l_utils/MPU6050.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_p_u6050_8cpp.html"];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="esp32-snippets/cpp\l_utils/OV7670.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_o_v7670_8h.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="esp32-snippets/cpp\l_utils/OV7670.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_o_v7670_8cpp.html"];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="esp32-snippets/cpp\l_utils/PCF8574.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_c_f8574_8h.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="esp32-snippets/cpp\l_utils/PCF8574.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_c_f8574_8cpp.html"];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="esp32-snippets/cpp\l_utils/PCF8575.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_c_f8575_8h.html"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="esp32-snippets/cpp\l_utils/PCF8575.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_c_f8575_8cpp.html"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="esp32-snippets/cpp\l_utils/tests/task_i2c\l_scanner.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$task__i2c__scanner_8cpp.html"];
+}

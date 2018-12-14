@@ -1,0 +1,13 @@
+digraph "esp32-snippets/cpp_utils/FreeRTOSTimer.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="esp32-snippets/cpp\l_utils/FreeRTOSTimer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="esp32-snippets/cpp\l_utils/FreeRTOSTimer.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_free_r_t_o_s_timer_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="esp32-snippets/cpp\l_utils/PubSubClient.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pub_sub_client_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="esp32-snippets/cpp\l_utils/PubSubClient.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pub_sub_client_8cpp.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

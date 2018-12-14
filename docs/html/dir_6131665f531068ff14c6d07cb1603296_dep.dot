@@ -1,0 +1,17 @@
+digraph "components/curl/docs" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e9014474357f0c50c4c87dd9066e36b7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="curl" fontname="Helvetica", fontsize="10", URL="dir_e9014474357f0c50c4c87dd9066e36b7.html"]
+  subgraph clusterdir_6131665f531068ff14c6d07cb1603296 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6131665f531068ff14c6d07cb1603296.html"];
+    dir_6131665f531068ff14c6d07cb1603296 [shape=plaintext label="docs"];
+    dir_3010e7bfb4de6552903910b7e0188cd7 [shape=box label="cmdline-opts" color="black" fillcolor="white" style="filled" URL="dir_3010e7bfb4de6552903910b7e0188cd7.html"];
+    dir_bc05a9a33d7f4c6f9af4a85ebca21dd3 [shape=box label="examples" color="black" fillcolor="white" style="filled" URL="dir_bc05a9a33d7f4c6f9af4a85ebca21dd3.html"];
+    dir_b541a871f608d1a47d234bfc05a0201a [shape=box label="libcurl" color="red" fillcolor="white" style="filled" URL="dir_b541a871f608d1a47d234bfc05a0201a.html"];
+  }
+  }
+  dir_cd676b23329fa89648a4b0e59818ada0 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_cd676b23329fa89648a4b0e59818ada0.html"];
+  dir_bc05a9a33d7f4c6f9af4a85ebca21dd3->dir_cd676b23329fa89648a4b0e59818ada0 [headlabel="108", labeldistance=1.5 headhref="dir_000005_000015.html"];
+}

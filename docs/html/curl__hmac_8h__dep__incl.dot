@@ -1,0 +1,30 @@
+digraph "components/curl/lib/curl_hmac.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="components/curl/lib\l/curl_hmac.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="components/curl/lib\l/curl_md5.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$curl__md5_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="components/curl/lib\l/curl_sasl.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$curl__sasl_8c.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="components/curl/lib\l/md5.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$md5_8c.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="components/curl/lib\l/pop3.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pop3_8c.html"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="components/curl/lib\l/vauth/cleartext.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cleartext_8c.html"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="components/curl/lib\l/vauth/cram.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cram_8c.html"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="components/curl/lib\l/vauth/digest.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$digest_8c.html"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="components/curl/lib\l/vtls/vtls.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vtls_8c.html"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="components/curl/tests\l/unit/unit1601.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unit1601_8c.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="components/curl/lib\l/hmac.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hmac_8c.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

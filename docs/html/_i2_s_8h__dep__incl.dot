@@ -1,0 +1,10 @@
+digraph "esp32-snippets/cpp_utils/I2S.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node10 [label="esp32-snippets/cpp\l_utils/I2S.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="esp32-snippets/cpp\l_utils/I2S.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_i2_s_8cpp.html"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="esp32-snippets/cpp\l_utils/OV7670.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_o_v7670_8cpp.html"];
+}

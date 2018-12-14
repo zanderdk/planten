@@ -1,0 +1,15 @@
+digraph "esp32-snippets/networking/mqtt" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e6509e8e306afd21d8371d681599573a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="networking" fontname="Helvetica", fontsize="10", URL="dir_e6509e8e306afd21d8371d681599573a.html"]
+  subgraph clusterdir_bc0c0b9b7f6662c190af4a813f93d198 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bc0c0b9b7f6662c190af4a813f93d198.html"];
+    dir_bc0c0b9b7f6662c190af4a813f93d198 [shape=plaintext label="mqtt"];
+    dir_f010d300aa4f2aca70794602db48245c [shape=box label="paho_mqtt_embedded_c" color="red" fillcolor="white" style="filled" URL="dir_f010d300aa4f2aca70794602db48245c.html"];
+  }
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_f010d300aa4f2aca70794602db48245c->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="9", labeldistance=1.5 headhref="dir_000052_000062.html"];
+}

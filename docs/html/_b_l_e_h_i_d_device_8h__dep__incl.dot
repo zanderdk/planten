@@ -1,0 +1,12 @@
+digraph "esp32-snippets/cpp_utils/BLEHIDDevice.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node27 [label="esp32-snippets/cpp\l_utils/BLEHIDDevice.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="esp32-snippets/cpp\l_utils/BLEHIDDevice.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_b_l_e_h_i_d_device_8cpp.html"];
+  Node27 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="esp32-snippets/cpp\l_utils/tests/BLETests\l/SampleHIDDevice.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_sample_h_i_d_device_8cpp.html"];
+  Node27 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="esp32-snippets/cpp\l_utils/tests/BLETests\l/SampleHIDKeyboard.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_sample_h_i_d_keyboard_8cpp.html"];
+}

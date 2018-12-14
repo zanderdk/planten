@@ -1,0 +1,11 @@
+digraph "esp32-snippets/networking/mqtt/paho_mqtt_embedded_c/MQTTClient/src/arduino" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d26eb8a9337201d4147d4b6391c76f4b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_d26eb8a9337201d4147d4b6391c76f4b.html"]
+  dir_92bd65f5829f0b6ae7e936e37508f723 [shape=box, label="arduino", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_92bd65f5829f0b6ae7e936e37508f723.html"];
+  }
+  dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [shape=box label="cpp_utils" fillcolor="white" style="filled" color="red" URL="dir_e66062f3a4d2a5b6b6746a6b0f9c85ac.html"];
+  dir_92bd65f5829f0b6ae7e936e37508f723->dir_e66062f3a4d2a5b6b6746a6b0f9c85ac [headlabel="2", labeldistance=1.5 headhref="dir_000126_000062.html"];
+}

@@ -1,0 +1,17 @@
+digraph "impacket.smb3structs.SMBPacketBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="impacket.smb3structs.SMBPacketBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="impacket.structure.Structure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1structure_1_1_structure.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="impacket.smb3structs.SMB2\lPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1smb3structs_1_1_s_m_b2_packet.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="impacket.smb3structs.SMB2\lPacketAsync",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1smb3structs_1_1_s_m_b2_packet_async.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="impacket.smb3structs.SMB3\lPacket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1smb3structs_1_1_s_m_b3_packet.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="impacket.smb3structs.SMB3\lPacketAsync",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classimpacket_1_1smb3structs_1_1_s_m_b3_packet_async.html"];
+}

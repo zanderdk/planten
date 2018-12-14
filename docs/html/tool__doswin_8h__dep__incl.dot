@@ -1,0 +1,18 @@
+digraph "components/curl/src/tool_doswin.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node23 [label="components/curl/src\l/tool_doswin.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="components/curl/src\l/tool_cb_hdr.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tool__cb__hdr_8c.html"];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="components/curl/src\l/tool_main.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tool__main_8c.html"];
+  Node23 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="components/curl/src\l/tool_operate.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tool__operate_8c.html"];
+  Node23 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="components/curl/src\l/tool_operhlp.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tool__operhlp_8c.html"];
+  Node23 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="components/curl/src\l/tool_urlglob.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tool__urlglob_8c.html"];
+  Node23 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="components/curl/tests\l/unit/unit1604.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unit1604_8c.html"];
+}

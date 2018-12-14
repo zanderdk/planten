@@ -1,0 +1,18 @@
+digraph "components/curl/lib/getinfo.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="components/curl/lib\l/getinfo.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="components/curl/lib\l/easy.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$easy_8c.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="components/curl/lib\l/file.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$file_8c.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="components/curl/lib\l/getinfo.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib_2getinfo_8c.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="components/curl/lib\l/transfer.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$transfer_8c.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="components/curl/lib\l/url.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$url_8c.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="components/curl/packages\l/OS400/ccsidcurl.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ccsidcurl_8c.html"];
+}

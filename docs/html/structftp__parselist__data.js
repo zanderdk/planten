@@ -1,0 +1,25 @@
+var structftp__parselist__data =
+[
+    [ "OS_TYPE_UNKNOWN", "structftp__parselist__data.html#a10015baa458d387eab845161f12148c5aedb316839e28b845d65274ad4c9f60d0", null ],
+    [ "OS_TYPE_UNIX", "structftp__parselist__data.html#a10015baa458d387eab845161f12148c5ac3ebcbfdfbfa9353f7416b871af8c793", null ],
+    [ "OS_TYPE_WIN_NT", "structftp__parselist__data.html#a10015baa458d387eab845161f12148c5a00759369c767a979698652a960a720a8", null ],
+    [ "error", "structftp__parselist__data.html#a775e2b866c2381a665ae2276dba54554", null ],
+    [ "file_data", "structftp__parselist__data.html#a9fcb3a011b803c9370e324fb6709be3a", null ],
+    [ "filename", "structftp__parselist__data.html#add3448b2b3cafc295d8eb2252f2943a9", null ],
+    [ "group", "structftp__parselist__data.html#a0d722db182797881994adc36c1a0b59d", null ],
+    [ "item_length", "structftp__parselist__data.html#aaa43caa3b785403d992b10e3861b8440", null ],
+    [ "item_offset", "structftp__parselist__data.html#ad3bcc1d2ef5edfc15148b36b7ec7c162", null ],
+    [ "main", "structftp__parselist__data.html#a05ce0a2495922e1f3dae110bdbdcd570", null ],
+    [ "main", "structftp__parselist__data.html#ac4cda6d34deb4939fbf186254e519191", null ],
+    [ "NT", "structftp__parselist__data.html#ab526afe6be556bdafebab3d18b216c80", null ],
+    [ "offsets", "structftp__parselist__data.html#aa71ad6e0a084bb1bf0f6c5aa7f01349d", null ],
+    [ "os_type", "structftp__parselist__data.html#ac846f51daefb42fd8eff612860654316", null ],
+    [ "perm", "structftp__parselist__data.html#a6c1d80254a869997e7fda77216cff91c", null ],
+    [ "state", "structftp__parselist__data.html#a9a86164a85cc324f418e08e5eb244976", null ],
+    [ "sub", "structftp__parselist__data.html#a3f66d85e18b6bd8576e0c3d85d50d6d9", null ],
+    [ "sub", "structftp__parselist__data.html#a4641af292902474058a3f29e622de4db", null ],
+    [ "symlink_target", "structftp__parselist__data.html#a10344b9c6c11db17b9e25f60fd51e50e", null ],
+    [ "time", "structftp__parselist__data.html#a66394e3093c1bcf702aabe61f1872eb1", null ],
+    [ "UNIX", "structftp__parselist__data.html#a9b04b4e28e215724f27063f6a9255c5c", null ],
+    [ "user", "structftp__parselist__data.html#a685158cab79ee9354231d458a5055cfe", null ]
+];
